@@ -39,23 +39,44 @@ export const SpotTheDifference: React.FC<Props> = ({
         <Title differences={differences} />
 
         {/* Images */}
-        <div className="flex flex-col gap-12 mt-12">
-          <Img
-            src={staticFile(topImage)}
+        <div className="flex flex-col items-center gap-12 mt-12">
+          <div
             style={{
-              maxHeight: 750,
-              width: "100%",
-              objectFit: "contain",
+              display: "inline-flex",
+              border: "6px solid black",
+              alignItems: "center",
+              justifyContent: "center",
+              maxWidth: "max-content", // KEY
             }}
-          />
-          <Img
-            src={staticFile(bottomImage)}
+          >
+            <Img
+              src={staticFile(topImage)}
+              style={{
+                maxHeight: 750,
+                width: "auto",
+                height: "auto",
+                display: "block",
+              }}
+            />
+          </div>
+          <div
             style={{
-              maxHeight: 750,
-              width: "100%",
-              objectFit: "contain",
+              display: "inline-flex",
+              border: "6px solid black",
+              alignItems: "center",
+              justifyContent: "center",
+              maxWidth: "max-content", // KEY
             }}
-          />
+          >
+            <Img
+              src={staticFile(bottomImage)}
+              style={{
+                maxHeight: 750,
+                width: "100%",
+                objectFit: "contain",
+              }}
+            />
+          </div>
         </div>
 
         {/* Timer */}

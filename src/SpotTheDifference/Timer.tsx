@@ -12,8 +12,8 @@ export const Timer: React.FC<Props> = ({ frame, totalFrames, seconds }) => {
     <div
       style={{
         position: "absolute",
-        bottom: 40,
-        right: 40,
+        bottom: 35,
+        right: 35,
         background: "#020617",
         color: "#fff",
         padding: "16px 24px",
