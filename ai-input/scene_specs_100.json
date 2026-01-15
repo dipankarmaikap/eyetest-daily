@@ -1,0 +1,1581 @@
+[
+  {
+    "category": "animal",
+    "subject": "horse",
+    "pose": "standing",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "low angle",
+    "style": "soft realistic render",
+    "alternate": [
+      "add a small stain or spot",
+      "add or remove a subtle reflection",
+      "change the color of a small detail",
+      "change a texture pattern",
+      "add a tiny scratch or mark",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "chair",
+    "pose": "placed on a surface",
+    "environment": "coffee shop with minimal props",
+    "lighting": "evening golden light",
+    "camera": "slightly above eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change a texture pattern",
+      "change the color of a small detail",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "deer",
+    "pose": "standing",
+    "environment": "coffee shop with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "slightly above eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "remove a minor background object",
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "table lamp",
+    "pose": "placed on a surface",
+    "environment": "dining room with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "change the color of a small detail",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "fox",
+    "pose": "standing",
+    "environment": "garden with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "slightly above eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "add or remove a subtle reflection",
+      "change a texture pattern",
+      "slightly shift the shadow direction",
+      "change the color of a small detail",
+      "remove a minor background object",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "umbrella",
+    "pose": "placed on a surface",
+    "environment": "balcony with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "slightly above eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "change the color of a small detail",
+      "add a tiny scratch or mark",
+      "change a texture pattern",
+      "add a small stain or spot",
+      "remove a minor background object",
+      "slightly shift the shadow direction",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "hen",
+    "pose": "standing",
+    "environment": "bedroom with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change a texture pattern",
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "watch",
+    "pose": "placed on a surface",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "add or remove a subtle reflection",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "horse",
+    "pose": "standing",
+    "environment": "garden with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "slightly above eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "change the color of a small detail",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "hat",
+    "pose": "placed on a surface",
+    "environment": "office desk with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "slightly above eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "remove a minor background object",
+      "slightly shift the shadow direction",
+      "add a small stain or spot",
+      "change the color of a small detail",
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "deer",
+    "pose": "standing",
+    "environment": "library with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "low angle",
+    "style": "soft realistic render",
+    "alternate": [
+      "add a small stain or spot",
+      "add or remove a subtle reflection",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "notebook",
+    "pose": "placed on a surface",
+    "environment": "classroom with minimal props",
+    "lighting": "evening golden light",
+    "camera": "low angle",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "remove a minor background object",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "elephant",
+    "pose": "standing",
+    "environment": "balcony with minimal props",
+    "lighting": "evening golden light",
+    "camera": "top-down view",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "slightly shift the shadow direction",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "camera",
+    "pose": "placed on a surface",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "low angle",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change a texture pattern",
+      "change the color of a small detail",
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "panda",
+    "pose": "standing",
+    "environment": "dining room with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "slightly above eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "remove a minor background object",
+      "add a tiny scratch or mark",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "alarm clock",
+    "pose": "placed on a surface",
+    "environment": "garden with minimal props",
+    "lighting": "evening golden light",
+    "camera": "low angle",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "add a small stain or spot",
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "parrot",
+    "pose": "standing",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "low angle",
+    "style": "soft realistic render",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "change the color of a small detail",
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection",
+      "add a small stain or spot",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "chair",
+    "pose": "placed on a surface",
+    "environment": "park with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change a texture pattern",
+      "slightly shift the shadow direction",
+      "change the color of a small detail",
+      "remove a minor background object",
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "cat",
+    "pose": "standing",
+    "environment": "classroom with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "top-down view",
+    "style": "soft realistic render",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "remove a minor background object",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "guitar",
+    "pose": "placed on a surface",
+    "environment": "classroom with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add or remove a subtle reflection",
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "change a texture pattern",
+      "remove a minor background object",
+      "add a small stain or spot",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "cow",
+    "pose": "standing",
+    "environment": "classroom with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "slightly shift the shadow direction",
+      "remove a minor background object",
+      "add or remove a subtle reflection",
+      "add a small stain or spot",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "notebook",
+    "pose": "placed on a surface",
+    "environment": "classroom with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "low angle",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "change a texture pattern",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "pigeon",
+    "pose": "standing",
+    "environment": "bedroom with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection",
+      "remove a minor background object",
+      "change the color of a small detail",
+      "add a small stain or spot",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "keychain",
+    "pose": "placed on a surface",
+    "environment": "kitchen with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "low angle",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add or remove a subtle reflection",
+      "remove a minor background object",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "goat",
+    "pose": "standing",
+    "environment": "bus stop with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change the color of a small detail",
+      "add or remove a subtle reflection",
+      "add a small stain or spot",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "bicycle",
+    "pose": "placed on a surface",
+    "environment": "bedroom with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "slightly above eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "slightly shift the shadow direction",
+      "remove a minor background object",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "pigeon",
+    "pose": "standing",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "slightly above eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change the color of a small detail",
+      "add a tiny scratch or mark",
+      "add a small stain or spot",
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "flower pot",
+    "pose": "placed on a surface",
+    "environment": "kitchen with minimal props",
+    "lighting": "evening golden light",
+    "camera": "top-down view",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "remove a minor background object",
+      "slightly shift the shadow direction",
+      "add or remove a subtle reflection",
+      "change the color of a small detail",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "elephant",
+    "pose": "standing",
+    "environment": "balcony with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "low angle",
+    "style": "soft realistic render",
+    "alternate": [
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "change the color of a small detail",
+      "remove a minor background object",
+      "slightly shift the shadow direction",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "table lamp",
+    "pose": "placed on a surface",
+    "environment": "dining room with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "top-down view",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change the color of a small detail",
+      "remove a minor background object",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "goat",
+    "pose": "standing",
+    "environment": "library with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "slightly above eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "remove a minor background object",
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "bicycle",
+    "pose": "placed on a surface",
+    "environment": "office desk with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "change the color of a small detail",
+      "remove a minor background object",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "cow",
+    "pose": "standing",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "low angle",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add or remove a subtle reflection",
+      "change the color of a small detail",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "water bottle",
+    "pose": "placed on a surface",
+    "environment": "library with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "top-down view",
+    "style": "soft realistic render",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "change the color of a small detail",
+      "change a texture pattern",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "elephant",
+    "pose": "standing",
+    "environment": "bedroom with minimal props",
+    "lighting": "evening golden light",
+    "camera": "eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "remove a minor background object",
+      "change the color of a small detail",
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "bicycle",
+    "pose": "placed on a surface",
+    "environment": "library with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "slightly shift the shadow direction",
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "tiger",
+    "pose": "standing",
+    "environment": "balcony with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "low angle",
+    "style": "soft realistic render",
+    "alternate": [
+      "remove a minor background object",
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "change the color of a small detail",
+      "add or remove a subtle reflection",
+      "change a texture pattern",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "alarm clock",
+    "pose": "placed on a surface",
+    "environment": "garden with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "low angle",
+    "style": "soft realistic render",
+    "alternate": [
+      "remove a minor background object",
+      "add a small stain or spot",
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection",
+      "change the color of a small detail",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "fox",
+    "pose": "standing",
+    "environment": "balcony with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "table lamp",
+    "pose": "placed on a surface",
+    "environment": "bus stop with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change a texture pattern",
+      "slightly shift the shadow direction",
+      "change the color of a small detail",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "fox",
+    "pose": "standing",
+    "environment": "living room with minimal props",
+    "lighting": "evening golden light",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "add a small stain or spot",
+      "remove a minor background object",
+      "change a texture pattern",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "laptop",
+    "pose": "placed on a surface",
+    "environment": "library with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "remove a minor background object",
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "add a small stain or spot",
+      "change a texture pattern",
+      "change the color of a small detail",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "cat",
+    "pose": "standing",
+    "environment": "office desk with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "slightly shift the shadow direction",
+      "change a texture pattern",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "book",
+    "pose": "placed on a surface",
+    "environment": "kitchen with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "slightly above eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change a texture pattern",
+      "remove a minor background object",
+      "add or remove a subtle reflection",
+      "change the color of a small detail",
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "sheep",
+    "pose": "standing",
+    "environment": "office desk with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "remove a minor background object",
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "coffee mug",
+    "pose": "placed on a surface",
+    "environment": "classroom with minimal props",
+    "lighting": "evening golden light",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change a texture pattern",
+      "remove a minor background object",
+      "add a tiny scratch or mark",
+      "add a small stain or spot",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "parrot",
+    "pose": "standing",
+    "environment": "bedroom with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "top-down view",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "remove a minor background object",
+      "change a texture pattern",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "watch",
+    "pose": "placed on a surface",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "top-down view",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "add a small stain or spot",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "tiger",
+    "pose": "standing",
+    "environment": "bedroom with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "change the color of a small detail",
+      "remove a minor background object",
+      "change a texture pattern",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "alarm clock",
+    "pose": "placed on a surface",
+    "environment": "living room with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "slightly above eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "add a small stain or spot",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "elephant",
+    "pose": "standing",
+    "environment": "coffee shop with minimal props",
+    "lighting": "evening golden light",
+    "camera": "slightly above eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "remove a minor background object",
+      "change the color of a small detail",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "umbrella",
+    "pose": "placed on a surface",
+    "environment": "garden with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "add or remove a subtle reflection",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "bear",
+    "pose": "standing",
+    "environment": "garden with minimal props",
+    "lighting": "evening golden light",
+    "camera": "low angle",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change a texture pattern",
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "change the color of a small detail",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "notebook",
+    "pose": "placed on a surface",
+    "environment": "bus stop with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "top-down view",
+    "style": "soft realistic render",
+    "alternate": [
+      "add a small stain or spot",
+      "slightly shift the shadow direction",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "tiger",
+    "pose": "standing",
+    "environment": "coffee shop with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "remove a minor background object",
+      "add or remove a subtle reflection",
+      "change a texture pattern",
+      "change the color of a small detail",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "camera",
+    "pose": "placed on a surface",
+    "environment": "bedroom with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "low angle",
+    "style": "soft realistic render",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "cow",
+    "pose": "standing",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "low angle",
+    "style": "soft realistic render",
+    "alternate": [
+      "remove a minor background object",
+      "add a tiny scratch or mark",
+      "slightly shift the shadow direction",
+      "add or remove a subtle reflection",
+      "add a small stain or spot",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "guitar",
+    "pose": "placed on a surface",
+    "environment": "office desk with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "add or remove a subtle reflection",
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "cat",
+    "pose": "standing",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "pillow",
+    "pose": "placed on a surface",
+    "environment": "garden with minimal props",
+    "lighting": "evening golden light",
+    "camera": "top-down view",
+    "style": "soft realistic render",
+    "alternate": [
+      "change the color of a small detail",
+      "add a tiny scratch or mark",
+      "change a texture pattern",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "hen",
+    "pose": "standing",
+    "environment": "bedroom with minimal props",
+    "lighting": "evening golden light",
+    "camera": "top-down view",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection",
+      "slightly shift the shadow direction",
+      "change a texture pattern",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "notebook",
+    "pose": "placed on a surface",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "slightly above eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "remove a minor background object",
+      "add a tiny scratch or mark",
+      "change the color of a small detail",
+      "change a texture pattern",
+      "slightly shift the shadow direction",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "sheep",
+    "pose": "standing",
+    "environment": "coffee shop with minimal props",
+    "lighting": "evening golden light",
+    "camera": "top-down view",
+    "style": "soft realistic render",
+    "alternate": [
+      "add or remove a subtle reflection",
+      "change the color of a small detail",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "bicycle",
+    "pose": "placed on a surface",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "evening golden light",
+    "camera": "eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change the color of a small detail",
+      "add a small stain or spot",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "lion",
+    "pose": "standing",
+    "environment": "classroom with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "low angle",
+    "style": "soft realistic render",
+    "alternate": [
+      "remove a minor background object",
+      "add a small stain or spot",
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark",
+      "change a texture pattern",
+      "slightly shift the shadow direction",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "umbrella",
+    "pose": "placed on a surface",
+    "environment": "classroom with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "add a small stain or spot",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "hen",
+    "pose": "standing",
+    "environment": "library with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "slightly above eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change the color of a small detail",
+      "remove a minor background object",
+      "change a texture pattern",
+      "add a small stain or spot",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "hat",
+    "pose": "placed on a surface",
+    "environment": "library with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "low angle",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "remove a minor background object",
+      "add a small stain or spot",
+      "change the color of a small detail",
+      "change a texture pattern",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "fox",
+    "pose": "standing",
+    "environment": "garden with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change a texture pattern",
+      "remove a minor background object",
+      "add a tiny scratch or mark",
+      "change the color of a small detail",
+      "slightly shift the shadow direction",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "chair",
+    "pose": "placed on a surface",
+    "environment": "kitchen with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "low angle",
+    "style": "soft realistic render",
+    "alternate": [
+      "change the color of a small detail",
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "add a small stain or spot",
+      "remove a minor background object",
+      "add a tiny scratch or mark",
+      "slightly shift the shadow direction"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "bear",
+    "pose": "standing",
+    "environment": "kitchen with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "change a texture pattern",
+      "slightly shift the shadow direction",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "table lamp",
+    "pose": "placed on a surface",
+    "environment": "classroom with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "slightly above eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change the color of a small detail",
+      "add a small stain or spot",
+      "add or remove a subtle reflection",
+      "change a texture pattern",
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "monkey",
+    "pose": "standing",
+    "environment": "kitchen with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add or remove a subtle reflection",
+      "add a small stain or spot",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "bicycle",
+    "pose": "placed on a surface",
+    "environment": "living room with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "low angle",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "parrot",
+    "pose": "standing",
+    "environment": "coffee shop with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "low angle",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "flower pot",
+    "pose": "placed on a surface",
+    "environment": "library with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "low angle",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "change the color of a small detail",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "hen",
+    "pose": "standing",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "evening golden light",
+    "camera": "slightly above eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "remove a minor background object",
+      "change the color of a small detail",
+      "slightly shift the shadow direction",
+      "add or remove a subtle reflection",
+      "change a texture pattern",
+      "add a tiny scratch or mark",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "backpack",
+    "pose": "placed on a surface",
+    "environment": "balcony with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "top-down view",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change the color of a small detail",
+      "add a tiny scratch or mark",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "cow",
+    "pose": "standing",
+    "environment": "balcony with minimal props",
+    "lighting": "evening golden light",
+    "camera": "low angle",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "remove a minor background object",
+      "change the color of a small detail",
+      "add a tiny scratch or mark",
+      "slightly shift the shadow direction",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "alarm clock",
+    "pose": "placed on a surface",
+    "environment": "library with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "slightly above eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "change the color of a small detail",
+      "add a tiny scratch or mark",
+      "add a small stain or spot",
+      "slightly shift the shadow direction",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "sheep",
+    "pose": "standing",
+    "environment": "classroom with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "top-down view",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "remove a minor background object",
+      "add a tiny scratch or mark",
+      "change the color of a small detail",
+      "add a small stain or spot",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "laptop",
+    "pose": "placed on a surface",
+    "environment": "balcony with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "change the color of a small detail",
+      "remove a minor background object",
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark",
+      "add a small stain or spot",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "monkey",
+    "pose": "standing",
+    "environment": "dining room with minimal props",
+    "lighting": "evening golden light",
+    "camera": "eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "remove a minor background object",
+      "change the color of a small detail",
+      "change a texture pattern",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "keychain",
+    "pose": "placed on a surface",
+    "environment": "dining room with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "slightly above eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change the color of a small detail",
+      "add a tiny scratch or mark",
+      "change a texture pattern",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "rabbit",
+    "pose": "standing",
+    "environment": "dining room with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "remove a minor background object",
+      "add a small stain or spot",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "guitar",
+    "pose": "placed on a surface",
+    "environment": "dining room with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "low angle",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add or remove a subtle reflection",
+      "add a small stain or spot",
+      "change a texture pattern",
+      "add a tiny scratch or mark"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "panda",
+    "pose": "standing",
+    "environment": "classroom with minimal props",
+    "lighting": "evening golden light",
+    "camera": "eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "backpack",
+    "pose": "placed on a surface",
+    "environment": "bus stop with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "slightly above eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add or remove a subtle reflection",
+      "add a tiny scratch or mark",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "goat",
+    "pose": "standing",
+    "environment": "park with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "low angle",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "remove a minor background object",
+      "add or remove a subtle reflection",
+      "slightly shift the shadow direction",
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "keychain",
+    "pose": "placed on a surface",
+    "environment": "kitchen with minimal props",
+    "lighting": "evening golden light",
+    "camera": "low angle",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add or remove a subtle reflection",
+      "change a texture pattern",
+      "add a tiny scratch or mark",
+      "slightly shift the shadow direction",
+      "change the color of a small detail",
+      "remove a minor background object",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "tiger",
+    "pose": "standing",
+    "environment": "bus stop with minimal props",
+    "lighting": "evening golden light",
+    "camera": "low angle",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "add a small stain or spot",
+      "add or remove a subtle reflection",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "wallet",
+    "pose": "placed on a surface",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "soft afternoon daylight",
+    "camera": "slightly above eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection",
+      "change the color of a small detail",
+      "slightly shift the shadow direction",
+      "remove a minor background object",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "deer",
+    "pose": "standing",
+    "environment": "bus stop with minimal props",
+    "lighting": "evening golden light",
+    "camera": "top-down view",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "add a tiny scratch or mark",
+      "change the color of a small detail",
+      "slightly shift the shadow direction",
+      "add or remove a subtle reflection",
+      "remove a minor background object",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "coffee mug",
+    "pose": "placed on a surface",
+    "environment": "living room with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "top-down view",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "remove a minor background object",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "elephant",
+    "pose": "standing",
+    "environment": "office desk with minimal props",
+    "lighting": "overcast daylight",
+    "camera": "eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "add or remove a subtle reflection",
+      "slightly shift the shadow direction",
+      "remove a minor background object",
+      "add a small stain or spot",
+      "add a tiny scratch or mark",
+      "change a texture pattern"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "umbrella",
+    "pose": "placed on a surface",
+    "environment": "living room with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "slightly above eye level",
+    "style": "naturalistic digital illustration",
+    "alternate": [
+      "change a texture pattern",
+      "remove a minor background object",
+      "slightly shift the shadow direction",
+      "add a small stain or spot",
+      "change the color of a small detail",
+      "add or remove a subtle reflection"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "cow",
+    "pose": "standing",
+    "environment": "library with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "slightly above eye level",
+    "style": "soft realistic render",
+    "alternate": [
+      "slightly shift the shadow direction",
+      "add a small stain or spot",
+      "change a texture pattern",
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection",
+      "remove a minor background object",
+      "change the color of a small detail"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "chair",
+    "pose": "placed on a surface",
+    "environment": "street sidewalk with minimal props",
+    "lighting": "evening golden light",
+    "camera": "eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change the color of a small detail",
+      "remove a minor background object",
+      "add a small stain or spot"
+    ]
+  },
+  {
+    "category": "animal",
+    "subject": "fox",
+    "pose": "standing",
+    "environment": "library with minimal props",
+    "lighting": "warm indoor lighting",
+    "camera": "eye level",
+    "style": "clean cartoon illustration",
+    "alternate": [
+      "change the color of a small detail",
+      "change a texture pattern",
+      "add or remove a subtle reflection",
+      "remove a minor background object"
+    ]
+  },
+  {
+    "category": "object",
+    "subject": "laptop",
+    "pose": "placed on a surface",
+    "environment": "bedroom with minimal props",
+    "lighting": "morning sunlight",
+    "camera": "top-down view",
+    "style": "soft realistic render",
+    "alternate": [
+      "add a small stain or spot",
+      "change the color of a small detail",
+      "add a tiny scratch or mark",
+      "add or remove a subtle reflection"
+    ]
+  }
+]

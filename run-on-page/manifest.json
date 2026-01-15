@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Run On Page",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Run script"
+  },
+  "background": {
+    "service_worker": "run.js"
+  }
+}

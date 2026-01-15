@@ -1,0 +1,1652 @@
+Base Prompt:
+
+A high-quality illustration of a watch (object) in a street sidewalk with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add a small stain or spot
+2. add or remove a subtle reflection
+3. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a horse (animal) in a garden with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: slightly above eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. add a tiny scratch or mark
+2. change a texture pattern
+3. add or remove a subtle reflection
+4. change the color of a small detail
+5. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a hat (object) in a office desk with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: slightly above eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. remove a minor background object
+2. slightly shift the shadow direction
+3. add a small stain or spot
+4. change the color of a small detail
+5. add a tiny scratch or mark
+6. add or remove a subtle reflection
+7. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a deer (animal) in a library with minimal props environment, 
+pose: standing, lighting: morning sunlight, camera: low angle, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add a small stain or spot
+2. add or remove a subtle reflection
+3. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a notebook (object) in a classroom with minimal props environment, 
+pose: placed on a surface, lighting: evening golden light, camera: low angle, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. add a small stain or spot
+2. add a tiny scratch or mark
+3. remove a minor background object
+4. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a elephant (animal) in a balcony with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: top-down view, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. add a small stain or spot
+2. change a texture pattern
+3. add or remove a subtle reflection
+4. slightly shift the shadow direction
+5. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a camera (object) in a street sidewalk with minimal props environment, 
+pose: placed on a surface, lighting: overcast daylight, camera: low angle, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. change a texture pattern
+2. change the color of a small detail
+3. add or remove a subtle reflection
+4. add a tiny scratch or mark
+5. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a panda (animal) in a dining room with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: slightly above eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. slightly shift the shadow direction
+2. remove a minor background object
+3. add a tiny scratch or mark
+4. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a alarm clock (object) in a garden with minimal props environment, 
+pose: placed on a surface, lighting: evening golden light, camera: low angle, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. slightly shift the shadow direction
+2. add a small stain or spot
+3. add or remove a subtle reflection
+4. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a parrot (animal) in a street sidewalk with minimal props environment, 
+pose: standing, lighting: soft afternoon daylight, camera: low angle, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. slightly shift the shadow direction
+2. change the color of a small detail
+3. add a tiny scratch or mark
+4. add or remove a subtle reflection
+5. add a small stain or spot
+6. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a chair (object) in a park with minimal props environment, 
+pose: placed on a surface, lighting: soft afternoon daylight, camera: eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. change a texture pattern
+2. slightly shift the shadow direction
+3. change the color of a small detail
+4. remove a minor background object
+5. add or remove a subtle reflection
+6. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a cat (animal) in a classroom with minimal props environment, 
+pose: standing, lighting: overcast daylight, camera: top-down view, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add a tiny scratch or mark
+2. remove a minor background object
+3. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a guitar (object) in a classroom with minimal props environment, 
+pose: placed on a surface, lighting: overcast daylight, camera: eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. add or remove a subtle reflection
+2. slightly shift the shadow direction
+3. add a tiny scratch or mark
+4. change a texture pattern
+5. remove a minor background object
+6. add a small stain or spot
+7. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a cow (animal) in a classroom with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. add a tiny scratch or mark
+2. slightly shift the shadow direction
+3. remove a minor background object
+4. add or remove a subtle reflection
+5. add a small stain or spot
+6. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a notebook (object) in a classroom with minimal props environment, 
+pose: placed on a surface, lighting: soft afternoon daylight, camera: low angle, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add a small stain or spot
+2. change a texture pattern
+3. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a pigeon (animal) in a bedroom with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. add a tiny scratch or mark
+2. add or remove a subtle reflection
+3. remove a minor background object
+4. change the color of a small detail
+5. add a small stain or spot
+6. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a keychain (object) in a kitchen with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: low angle, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add or remove a subtle reflection
+2. remove a minor background object
+3. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a goat (animal) in a bus stop with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. change the color of a small detail
+2. add or remove a subtle reflection
+3. add a small stain or spot
+4. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a bicycle (object) in a bedroom with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: slightly above eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. add a small stain or spot
+2. slightly shift the shadow direction
+3. remove a minor background object
+4. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a pigeon (animal) in a street sidewalk with minimal props environment, 
+pose: standing, lighting: soft afternoon daylight, camera: slightly above eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. change the color of a small detail
+2. add a tiny scratch or mark
+3. add a small stain or spot
+4. change a texture pattern
+5. add or remove a subtle reflection
+6. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a flower pot (object) in a kitchen with minimal props environment, 
+pose: placed on a surface, lighting: evening golden light, camera: top-down view, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. remove a minor background object
+2. slightly shift the shadow direction
+3. add or remove a subtle reflection
+4. change the color of a small detail
+5. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a elephant (animal) in a balcony with minimal props environment, 
+pose: standing, lighting: overcast daylight, camera: low angle, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. add a small stain or spot
+2. add a tiny scratch or mark
+3. change the color of a small detail
+4. remove a minor background object
+5. slightly shift the shadow direction
+6. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a table lamp (object) in a dining room with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: top-down view, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. change the color of a small detail
+2. remove a minor background object
+3. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a goat (animal) in a library with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: slightly above eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. add a small stain or spot
+2. add a tiny scratch or mark
+3. remove a minor background object
+4. change a texture pattern
+5. add or remove a subtle reflection
+6. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a bicycle (object) in a office desk with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. add a small stain or spot
+2. change the color of a small detail
+3. remove a minor background object
+4. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a cow (animal) in a street sidewalk with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: low angle, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add or remove a subtle reflection
+2. change the color of a small detail
+3. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a water bottle (object) in a library with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: top-down view, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. slightly shift the shadow direction
+2. change the color of a small detail
+3. change a texture pattern
+4. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a elephant (animal) in a bedroom with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. add a small stain or spot
+2. remove a minor background object
+3. change the color of a small detail
+4. change a texture pattern
+5. add or remove a subtle reflection
+6. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a bicycle (object) in a library with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. change a texture pattern
+2. add or remove a subtle reflection
+3. slightly shift the shadow direction
+4. add a small stain or spot
+5. add a tiny scratch or mark
+6. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a tiger (animal) in a balcony with minimal props environment, 
+pose: standing, lighting: morning sunlight, camera: low angle, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. remove a minor background object
+2. slightly shift the shadow direction
+3. add a tiny scratch or mark
+4. change the color of a small detail
+5. add or remove a subtle reflection
+6. change a texture pattern
+7. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a alarm clock (object) in a garden with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: low angle, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. remove a minor background object
+2. add a small stain or spot
+3. slightly shift the shadow direction
+4. add a tiny scratch or mark
+5. add or remove a subtle reflection
+6. change the color of a small detail
+7. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a fox (animal) in a balcony with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. change a texture pattern
+2. add or remove a subtle reflection
+3. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a table lamp (object) in a bus stop with minimal props environment, 
+pose: placed on a surface, lighting: soft afternoon daylight, camera: eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. change a texture pattern
+2. slightly shift the shadow direction
+3. change the color of a small detail
+4. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a fox (animal) in a living room with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. slightly shift the shadow direction
+2. add a tiny scratch or mark
+3. add a small stain or spot
+4. remove a minor background object
+5. change a texture pattern
+6. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a laptop (object) in a library with minimal props environment, 
+pose: placed on a surface, lighting: soft afternoon daylight, camera: eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. remove a minor background object
+2. slightly shift the shadow direction
+3. add a tiny scratch or mark
+4. add a small stain or spot
+5. change a texture pattern
+6. change the color of a small detail
+7. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a cat (animal) in a office desk with minimal props environment, 
+pose: standing, lighting: soft afternoon daylight, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. add a small stain or spot
+2. add a tiny scratch or mark
+3. slightly shift the shadow direction
+4. change a texture pattern
+5. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a book (object) in a kitchen with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: slightly above eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. change a texture pattern
+2. remove a minor background object
+3. add or remove a subtle reflection
+4. change the color of a small detail
+5. add a small stain or spot
+6. add a tiny scratch or mark
+7. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a sheep (animal) in a office desk with minimal props environment, 
+pose: standing, lighting: morning sunlight, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. remove a minor background object
+2. add or remove a subtle reflection
+3. add a tiny scratch or mark
+4. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a coffee mug (object) in a classroom with minimal props environment, 
+pose: placed on a surface, lighting: evening golden light, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. change a texture pattern
+2. remove a minor background object
+3. add a tiny scratch or mark
+4. add a small stain or spot
+5. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a parrot (animal) in a bedroom with minimal props environment, 
+pose: standing, lighting: morning sunlight, camera: top-down view, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. slightly shift the shadow direction
+2. remove a minor background object
+3. change a texture pattern
+4. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a watch (object) in a street sidewalk with minimal props environment, 
+pose: placed on a surface, lighting: soft afternoon daylight, camera: top-down view, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. change a texture pattern
+2. add or remove a subtle reflection
+3. slightly shift the shadow direction
+4. add a tiny scratch or mark
+5. add a small stain or spot
+6. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a tiger (animal) in a bedroom with minimal props environment, 
+pose: standing, lighting: soft afternoon daylight, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. add a tiny scratch or mark
+2. change the color of a small detail
+3. remove a minor background object
+4. change a texture pattern
+5. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a alarm clock (object) in a living room with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: slightly above eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add a tiny scratch or mark
+2. add a small stain or spot
+3. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a elephant (animal) in a coffee shop with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: slightly above eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. remove a minor background object
+2. change the color of a small detail
+3. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a umbrella (object) in a garden with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. slightly shift the shadow direction
+2. add or remove a subtle reflection
+3. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a bear (animal) in a garden with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: low angle, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. change a texture pattern
+2. add a small stain or spot
+3. add a tiny scratch or mark
+4. change the color of a small detail
+5. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a notebook (object) in a bus stop with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: top-down view, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add a small stain or spot
+2. slightly shift the shadow direction
+3. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a tiger (animal) in a coffee shop with minimal props environment, 
+pose: standing, lighting: overcast daylight, camera: eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. slightly shift the shadow direction
+2. add a tiny scratch or mark
+3. remove a minor background object
+4. add or remove a subtle reflection
+5. change a texture pattern
+6. change the color of a small detail
+7. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a camera (object) in a bedroom with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: low angle, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. slightly shift the shadow direction
+2. change a texture pattern
+3. add or remove a subtle reflection
+4. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a cow (animal) in a street sidewalk with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: low angle, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. remove a minor background object
+2. add a tiny scratch or mark
+3. slightly shift the shadow direction
+4. add or remove a subtle reflection
+5. add a small stain or spot
+6. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a guitar (object) in a office desk with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. add or remove a subtle reflection
+2. slightly shift the shadow direction
+3. add a tiny scratch or mark
+4. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a cat (animal) in a street sidewalk with minimal props environment, 
+pose: standing, lighting: overcast daylight, camera: eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. slightly shift the shadow direction
+2. add or remove a subtle reflection
+3. add a tiny scratch or mark
+4. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a pillow (object) in a garden with minimal props environment, 
+pose: placed on a surface, lighting: evening golden light, camera: top-down view, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. change the color of a small detail
+2. add a tiny scratch or mark
+3. change a texture pattern
+4. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a hen (animal) in a bedroom with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: top-down view, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. add a tiny scratch or mark
+2. add or remove a subtle reflection
+3. slightly shift the shadow direction
+4. change a texture pattern
+5. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a notebook (object) in a street sidewalk with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: slightly above eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. remove a minor background object
+2. add a tiny scratch or mark
+3. change the color of a small detail
+4. change a texture pattern
+5. slightly shift the shadow direction
+6. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a sheep (animal) in a coffee shop with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: top-down view, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add or remove a subtle reflection
+2. change the color of a small detail
+3. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a bicycle (object) in a street sidewalk with minimal props environment, 
+pose: placed on a surface, lighting: evening golden light, camera: eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. change the color of a small detail
+2. add a small stain or spot
+3. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a lion (animal) in a classroom with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: low angle, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. remove a minor background object
+2. add a small stain or spot
+3. add or remove a subtle reflection
+4. add a tiny scratch or mark
+5. change a texture pattern
+6. slightly shift the shadow direction
+7. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a umbrella (object) in a classroom with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add a tiny scratch or mark
+2. add a small stain or spot
+3. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a hen (animal) in a library with minimal props environment, 
+pose: standing, lighting: soft afternoon daylight, camera: slightly above eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. change the color of a small detail
+2. remove a minor background object
+3. change a texture pattern
+4. add a small stain or spot
+5. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a hat (object) in a library with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: low angle, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. slightly shift the shadow direction
+2. add a tiny scratch or mark
+3. remove a minor background object
+4. add a small stain or spot
+5. change the color of a small detail
+6. change a texture pattern
+7. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a fox (animal) in a garden with minimal props environment, 
+pose: standing, lighting: soft afternoon daylight, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. change a texture pattern
+2. remove a minor background object
+3. add a tiny scratch or mark
+4. change the color of a small detail
+5. slightly shift the shadow direction
+6. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a chair (object) in a kitchen with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: low angle, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. change the color of a small detail
+2. change a texture pattern
+3. add or remove a subtle reflection
+4. add a small stain or spot
+5. remove a minor background object
+6. add a tiny scratch or mark
+7. slightly shift the shadow direction
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a bear (animal) in a kitchen with minimal props environment, 
+pose: standing, lighting: overcast daylight, camera: eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. add a small stain or spot
+2. change a texture pattern
+3. slightly shift the shadow direction
+4. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a table lamp (object) in a classroom with minimal props environment, 
+pose: placed on a surface, lighting: soft afternoon daylight, camera: slightly above eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. change the color of a small detail
+2. add a small stain or spot
+3. add or remove a subtle reflection
+4. change a texture pattern
+5. slightly shift the shadow direction
+6. add a tiny scratch or mark
+7. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a monkey (animal) in a kitchen with minimal props environment, 
+pose: standing, lighting: soft afternoon daylight, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add or remove a subtle reflection
+2. add a small stain or spot
+3. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a bicycle (object) in a living room with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: low angle, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. slightly shift the shadow direction
+2. add a tiny scratch or mark
+3. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a parrot (animal) in a coffee shop with minimal props environment, 
+pose: standing, lighting: soft afternoon daylight, camera: low angle, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add a small stain or spot
+2. add or remove a subtle reflection
+3. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a flower pot (object) in a library with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: low angle, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. slightly shift the shadow direction
+2. change the color of a small detail
+3. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a hen (animal) in a street sidewalk with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: slightly above eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. remove a minor background object
+2. change the color of a small detail
+3. slightly shift the shadow direction
+4. add or remove a subtle reflection
+5. change a texture pattern
+6. add a tiny scratch or mark
+7. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a backpack (object) in a balcony with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: top-down view, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. change the color of a small detail
+2. add a tiny scratch or mark
+3. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a cow (animal) in a balcony with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: low angle, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. remove a minor background object
+2. change the color of a small detail
+3. add a tiny scratch or mark
+4. slightly shift the shadow direction
+5. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a alarm clock (object) in a library with minimal props environment, 
+pose: placed on a surface, lighting: overcast daylight, camera: slightly above eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. change a texture pattern
+2. add or remove a subtle reflection
+3. change the color of a small detail
+4. add a tiny scratch or mark
+5. add a small stain or spot
+6. slightly shift the shadow direction
+7. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a sheep (animal) in a classroom with minimal props environment, 
+pose: standing, lighting: overcast daylight, camera: top-down view, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 5 subtle visual changes:
+1. remove a minor background object
+2. add a tiny scratch or mark
+3. change the color of a small detail
+4. add a small stain or spot
+5. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a laptop (object) in a balcony with minimal props environment, 
+pose: placed on a surface, lighting: soft afternoon daylight, camera: eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. change the color of a small detail
+2. remove a minor background object
+3. add or remove a subtle reflection
+4. add a tiny scratch or mark
+5. add a small stain or spot
+6. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a monkey (animal) in a dining room with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. remove a minor background object
+2. change the color of a small detail
+3. change a texture pattern
+4. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a keychain (object) in a dining room with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: slightly above eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. change the color of a small detail
+2. add a tiny scratch or mark
+3. change a texture pattern
+4. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a rabbit (animal) in a dining room with minimal props environment, 
+pose: standing, lighting: morning sunlight, camera: eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. remove a minor background object
+2. add a small stain or spot
+3. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a guitar (object) in a dining room with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: low angle, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. add or remove a subtle reflection
+2. add a small stain or spot
+3. change a texture pattern
+4. add a tiny scratch or mark
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a panda (animal) in a classroom with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add a tiny scratch or mark
+2. add or remove a subtle reflection
+3. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a backpack (object) in a bus stop with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: slightly above eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add or remove a subtle reflection
+2. add a tiny scratch or mark
+3. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a goat (animal) in a park with minimal props environment, 
+pose: standing, lighting: overcast daylight, camera: low angle, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. remove a minor background object
+2. add or remove a subtle reflection
+3. slightly shift the shadow direction
+4. add a small stain or spot
+5. add a tiny scratch or mark
+6. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a keychain (object) in a kitchen with minimal props environment, 
+pose: placed on a surface, lighting: evening golden light, camera: low angle, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. add or remove a subtle reflection
+2. change a texture pattern
+3. add a tiny scratch or mark
+4. slightly shift the shadow direction
+5. change the color of a small detail
+6. remove a minor background object
+7. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a tiger (animal) in a bus stop with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: low angle, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. add a small stain or spot
+2. add or remove a subtle reflection
+3. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a wallet (object) in a street sidewalk with minimal props environment, 
+pose: placed on a surface, lighting: soft afternoon daylight, camera: slightly above eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. add a tiny scratch or mark
+2. add or remove a subtle reflection
+3. change the color of a small detail
+4. slightly shift the shadow direction
+5. remove a minor background object
+6. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a deer (animal) in a bus stop with minimal props environment, 
+pose: standing, lighting: evening golden light, camera: top-down view, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. add a tiny scratch or mark
+2. change the color of a small detail
+3. slightly shift the shadow direction
+4. add or remove a subtle reflection
+5. remove a minor background object
+6. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a coffee mug (object) in a living room with minimal props environment, 
+pose: placed on a surface, lighting: overcast daylight, camera: top-down view, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. slightly shift the shadow direction
+2. remove a minor background object
+3. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a elephant (animal) in a office desk with minimal props environment, 
+pose: standing, lighting: overcast daylight, camera: eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. add or remove a subtle reflection
+2. slightly shift the shadow direction
+3. remove a minor background object
+4. add a small stain or spot
+5. add a tiny scratch or mark
+6. change a texture pattern
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a umbrella (object) in a living room with minimal props environment, 
+pose: placed on a surface, lighting: warm indoor lighting, camera: slightly above eye level, style: naturalistic digital illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 6 subtle visual changes:
+1. change a texture pattern
+2. remove a minor background object
+3. slightly shift the shadow direction
+4. add a small stain or spot
+5. change the color of a small detail
+6. add or remove a subtle reflection
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a cow (animal) in a library with minimal props environment, 
+pose: standing, lighting: morning sunlight, camera: slightly above eye level, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 7 subtle visual changes:
+1. slightly shift the shadow direction
+2. add a small stain or spot
+3. change a texture pattern
+4. add a tiny scratch or mark
+5. add or remove a subtle reflection
+6. remove a minor background object
+7. change the color of a small detail
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a chair (object) in a street sidewalk with minimal props environment, 
+pose: placed on a surface, lighting: evening golden light, camera: eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 3 subtle visual changes:
+1. change the color of a small detail
+2. remove a minor background object
+3. add a small stain or spot
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a fox (animal) in a library with minimal props environment, 
+pose: standing, lighting: warm indoor lighting, camera: eye level, style: clean cartoon illustration.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. change the color of a small detail
+2. change a texture pattern
+3. add or remove a subtle reflection
+4. remove a minor background object
+
+Do not change anything else.
+
+
+Base Prompt:
+
+A high-quality illustration of a laptop (object) in a bedroom with minimal props environment, 
+pose: placed on a surface, lighting: morning sunlight, camera: top-down view, style: cartoon.
+
+
+Variant Prompt:
+Same Image 
+Make ONLY 4 subtle visual changes:
+1. add a small stain or spot
+2. change the color of a small detail
+3. add a tiny scratch or mark
+4. add or remove a subtle reflection
+
+Do not change anything else.
+
+
