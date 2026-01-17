@@ -43,7 +43,10 @@ for (const [id, puzzle] of Object.entries(puzzles)) {
   }
   const videoId = `${id}_spot_${puzzle.differences}_differences.mp4`;
   const output = path.join(OUT_DIR, videoId);
+  const imageId = `${id}_spot_${puzzle.differences}_differences.png`;
+  const imageOutput = path.join(OUT_DIR, imageId);
 
+  console.log(`Rendering still ${id} → ${imageOutput}`);
   console.log(`Rendering ${id} → ${output}`);
 
   // Write props to a temporary JSON file
@@ -60,6 +63,10 @@ for (const [id, puzzle] of Object.entries(puzzles)) {
     { stdio: "inherit" },
   );
 
+  execSync(
+    `npx remotion render-still src/index.ts EyeTestDaily "${imageOutput}" --frame=150 --props=${propsPath}`,
+    { stdio: "inherit" },
+  );
   // Remove the temporary JSON file
   fs.unlinkSync(propsPath);
 

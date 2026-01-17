@@ -1,14 +1,6 @@
-import {
-  AbsoluteFill,
-  Img,
-  useCurrentFrame,
-  useVideoConfig,
-  staticFile,
-  random,
-} from "remotion";
-import { Timer } from "./SpotTheDifference/Timer";
-import { Title } from "./SpotTheDifference/Title";
-import { AbstractPastelBackground } from "./SpotTheDifference/AnimatedBackground";
+import { AbsoluteFill, Img, staticFile, random } from "remotion";
+import { Title } from "./Title";
+import { AbstractPastelBackground } from "./AnimatedBackground";
 
 type Props = {
   differences: number;
@@ -21,9 +13,6 @@ export const SpotTheDifference: React.FC<Props> = ({
   topImage,
   bottomImage,
 }) => {
-  const frame = useCurrentFrame();
-  const { durationInFrames } = useVideoConfig();
-
   const seed = random("Can you spot the difference?") * differences * 1000;
 
   return (
@@ -78,9 +67,6 @@ export const SpotTheDifference: React.FC<Props> = ({
             />
           </div>
         </div>
-
-        {/* Timer */}
-        <Timer frame={frame} totalFrames={durationInFrames} seconds={10} />
       </AbsoluteFill>
     </>
   );
