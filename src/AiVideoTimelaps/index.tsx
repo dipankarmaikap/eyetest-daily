@@ -8,39 +8,50 @@ export const AiVideoTimelapsSchema = z.object({
   subtitle: z.string(),
   subtitleColor: z.string(),
   height: z.number(),
+  textHeight: z.number(),
+  zoom: z.number(),
 });
 
 export const AiVideoTimelaps: React.FC<
   z.infer<typeof AiVideoTimelapsSchema>
-> = ({ videoUrl, title, subtitle, subtitleColor, height }) => {
+> = ({
+  videoUrl,
+  title,
+  subtitle,
+  subtitleColor,
+  height,
+  textHeight,
+  zoom,
+}) => {
   return (
     <AbsoluteFill
       style={{
         backgroundColor: "black",
       }}
     >
-      {/* Top text area (20%) */}
-      <div
-        style={{
-          height: "25%",
-          display: "flex",
-          padding: "220px 40px",
-          textAlign: "center",
-          fontSize: 64,
-          fontWeight: 800,
-          color: "white",
-        }}
-      >
-        <div className="flex flex-col items-start justify-start">
-          <p>"{title}</p>
-          <p>
-            <span className="text-blue-500" style={{ color: subtitleColor }}>
-              {subtitle}{" "}
-            </span>
-            🥰"
-          </p>
+      {title && (
+        <div
+          style={{
+            height: `${textHeight}%`,
+            display: "flex",
+            padding: "220px 40px",
+            textAlign: "center",
+            fontSize: 64,
+            fontWeight: 800,
+            color: "white",
+          }}
+        >
+          <div className="flex flex-col items-start justify-start">
+            <p>"{title}</p>
+            <p>
+              <span className="text-blue-500" style={{ color: subtitleColor }}>
+                {subtitle}{" "}
+              </span>
+              🥰"
+            </p>
+          </div>
         </div>
-      </div>
+      )}
 
       <div
         style={{
@@ -53,10 +64,11 @@ export const AiVideoTimelaps: React.FC<
           playbackRate={0.5}
           muted
           style={{
+            transform: `scale(${zoom})`, // zoom in
             width: "100%",
             height: "100%",
             objectFit: "cover", // zoom + side crop
-            objectPosition: "bottom center",
+            objectPosition: "center center",
           }}
         />
       </div>

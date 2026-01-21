@@ -2,6 +2,7 @@ import "./index.css";
 import { Composition } from "remotion";
 import { SpotTheDifference } from "./SpotTheDifference";
 import { AiVideoTimelaps, AiVideoTimelapsSchema } from "./AiVideoTimelaps";
+import { SpotTheDifferenceTwitter } from "./SpotTheDifference/twitter";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -17,24 +18,39 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{
           differences: 3,
-          topImage: "spot_diff_01_v1.png",
-          bottomImage: "spot_diff_01_v2.png",
+          topImage: "puzzles/done/p11_3_top.png",
+          bottomImage: "puzzles/done/p11_3_bottom.png",
+        }}
+      />
+      <Composition
+        id="EyeTestDailyTwitter"
+        component={SpotTheDifferenceTwitter}
+        durationInFrames={30} // 10 sec @ 30fps
+        fps={30}
+        width={1200}
+        height={676}
+        defaultProps={{
+          differences: 3,
+          topImage: "puzzles/done/p18_5_top.png",
+          bottomImage: "puzzles/done/p18_5_bottom.png",
         }}
       />
       <Composition
         id="VideoWithTextOverlay"
         component={AiVideoTimelaps}
-        durationInFrames={450} // 20 sec @ 30fps
+        durationInFrames={300} // 20 sec @ 30fps
         fps={30}
         width={1080}
         height={1920}
         schema={AiVideoTimelapsSchema}
         defaultProps={{
-          videoUrl: "videos/Abandoned_House_Becomes_Luxury_Home.mp4",
+          videoUrl: "videos/tv-wall-media-unit-setup.mp4",
           title: "Moon wall transformation",
           subtitle: "wait till you see the result",
           subtitleColor: "red",
+          textHeight: 35,
           height: 65,
+          zoom: 1.1,
         }}
       />
     </>
