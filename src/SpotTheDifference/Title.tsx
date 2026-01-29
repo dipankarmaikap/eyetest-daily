@@ -9,13 +9,14 @@ export const Title: React.FC<Props> = ({ differences }) => {
         textAlign: "center",
         color: "#000",
       }}
+      className="inline-flex"
     >
       <h1
         style={{
-          fontSize: 80,
+          fontSize: 70,
           fontWeight: 800,
         }}
-        className="bg-white rounded-full p-4"
+        className="bg-white rounded-lg py-4 px-12"
       >
         Spot {differences} Differences
       </h1>

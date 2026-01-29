@@ -44,7 +44,7 @@ export const SpotTheDifferenceTwitter: React.FC<Props> = ({
                 display: "block",
               }}
             />
-            <p className="absolute top-4 right-4 text-4xl font-black opacity-3">
+            <p className="absolute top-4 right-4 text-4xl font-black opacity-10">
               EyeTest Daily
             </p>
           </div>
@@ -66,7 +66,7 @@ export const SpotTheDifferenceTwitter: React.FC<Props> = ({
                 objectFit: "contain",
               }}
             />
-            <p className="absolute top-4 right-4 text-4xl font-black opacity-3">
+            <p className="absolute top-4 right-4 text-4xl font-black opacity-10">
               EyeTest Daily
             </p>
           </div>

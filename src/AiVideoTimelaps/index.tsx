@@ -3,6 +3,7 @@ import { AbsoluteFill, Html5Video, staticFile } from "remotion";
 
 export const AiVideoTimelapsSchema = z.object({
   videoUrl: z.string(),
+  noText: z.boolean(),
   audioUrl: z.string().optional(),
   title: z.string(),
   subtitle: z.string(),
@@ -22,6 +23,7 @@ export const AiVideoTimelaps: React.FC<
   height,
   textHeight,
   zoom,
+  noText,
 }) => {
   return (
     <AbsoluteFill
@@ -29,7 +31,7 @@ export const AiVideoTimelaps: React.FC<
         backgroundColor: "black",
       }}
     >
-      {title && (
+      {!noText && title && (
         <div
           style={{
             height: `${textHeight}%`,
@@ -55,7 +57,7 @@ export const AiVideoTimelaps: React.FC<
 
       <div
         style={{
-          height: `${height}%`,
+          height: `${noText ? 100 : height}%`,
           overflow: "hidden", // IMPORTANT
         }}
       >

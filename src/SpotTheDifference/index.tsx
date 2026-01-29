@@ -13,22 +13,37 @@ export const SpotTheDifference: React.FC<Props> = ({
   topImage,
   bottomImage,
 }) => {
-  const seed = random("Can you spot the difference?") * differences * 1000;
+  const seedPart = topImage + bottomImage;
+  const seed = random(seedPart) * differences * 1000;
+  const showLikeButton = random(seedPart) < 0.5;
 
   return (
     <>
       <AbstractPastelBackground seed={seed} />
       <AbsoluteFill
         style={{
-          padding: 60,
+          padding: showLikeButton ? 40 : 60,
           fontFamily: "Inter, sans-serif",
         }}
       >
         {/* Title */}
-        <Title differences={differences} />
+        <div className="text-center">
+          <Title differences={differences} />
+        </div>
+        {showLikeButton && (
+          <div className="text-center">
+            <div className="bg-white inline-flex items-center justify-center rounded-full mt-6">
+              <p className="px-8 py-2 font-semibold" style={{ fontSize: 40 }}>
+                Found it? Double tap ❤️
+              </p>
+            </div>
+          </div>
+        )}
 
         {/* Images */}
-        <div className="flex flex-col items-center gap-12 mt-12">
+        <div
+          className={`flex flex-col items-center gap-12 ${showLikeButton ? "mt-8" : "mt-12"}`}
+        >
           <div
             style={{
               display: "inline-flex",
@@ -42,13 +57,13 @@ export const SpotTheDifference: React.FC<Props> = ({
             <Img
               src={staticFile(topImage)}
               style={{
-                maxHeight: 750,
+                maxHeight: showLikeButton ? 720 : 750,
                 width: "auto",
                 height: "auto",
                 display: "block",
               }}
             />
-            <p className="absolute top-4 right-4 text-4xl font-black opacity-3">
+            <p className="absolute top-4 right-4 text-4xl font-black opacity-10">
               EyeTest Daily
             </p>
           </div>
@@ -65,12 +80,12 @@ export const SpotTheDifference: React.FC<Props> = ({
             <Img
               src={staticFile(bottomImage)}
               style={{
-                maxHeight: 750,
+                maxHeight: showLikeButton ? 720 : 750,
                 width: "100%",
                 objectFit: "contain",
               }}
             />
-            <p className="absolute top-4 right-4 text-4xl font-black opacity-3">
+            <p className="absolute top-4 right-4 text-4xl font-black opacity-10">
               EyeTest Daily
             </p>
           </div>

@@ -63,10 +63,10 @@ for (const [id, puzzle] of Object.entries(puzzles)) {
     { stdio: "inherit" },
   );
 
-  execSync(
-    `npx remotion render-still src/index.ts EyeTestDaily "${imageOutput}" --frame=150 --props=${propsPath}`,
-    { stdio: "inherit" },
-  );
+  // execSync(
+  //   `npx remotion render-still src/index.ts EyeTestDaily "${imageOutput}" --frame=150 --props=${propsPath}`,
+  //   { stdio: "inherit" },
+  // );
   // Remove the temporary JSON file
   fs.unlinkSync(propsPath);
 

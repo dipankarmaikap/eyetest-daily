@@ -18,8 +18,8 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         defaultProps={{
           differences: 3,
-          topImage: "puzzles/done/p11_3_top.png",
-          bottomImage: "puzzles/done/p11_3_bottom.png",
+          topImage: "puzzles/done/p42_3_top.png",
+          bottomImage: "puzzles/done/p42_3_bottom.png",
         }}
       />
       <Composition
@@ -31,20 +31,21 @@ export const RemotionRoot: React.FC = () => {
         height={676}
         defaultProps={{
           differences: 3,
-          topImage: "puzzles/done/p18_5_top.png",
-          bottomImage: "puzzles/done/p18_5_bottom.png",
+          topImage: "puzzles/done/p42_3_top.png",
+          bottomImage: "puzzles/done/p42_3_bottom.png",
         }}
       />
       <Composition
         id="VideoWithTextOverlay"
         component={AiVideoTimelaps}
-        durationInFrames={300} // 20 sec @ 30fps
-        fps={30}
+        durationInFrames={240} // 10 sec @ 24fps
+        fps={24}
         width={1080}
         height={1920}
         schema={AiVideoTimelapsSchema}
         defaultProps={{
           videoUrl: "videos/tv-wall-media-unit-setup.mp4",
+          noText: false,
           title: "Moon wall transformation",
           subtitle: "wait till you see the result",
           subtitleColor: "red",
