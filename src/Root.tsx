@@ -3,6 +3,7 @@ import { Composition } from "remotion";
 import { SpotTheDifference } from "./SpotTheDifference";
 import { AiVideoTimelaps, AiVideoTimelapsSchema } from "./AiVideoTimelaps";
 import { SpotTheDifferenceTwitter } from "./SpotTheDifference/twitter";
+import { EyeTestBall } from "./EyeTestBall";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -13,6 +14,19 @@ export const RemotionRoot: React.FC = () => {
         id="EyeTestDaily"
         component={SpotTheDifference}
         durationInFrames={300} // 10 sec @ 30fps
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          differences: 3,
+          topImage: "puzzles/done/p42_3_top.png",
+          bottomImage: "puzzles/done/p42_3_bottom.png",
+        }}
+      />
+      <Composition
+        id="EyeTestBall"
+        component={EyeTestBall}
+        durationInFrames={450} // 15 sec @ 30fps
         fps={30}
         width={1080}
         height={1920}
