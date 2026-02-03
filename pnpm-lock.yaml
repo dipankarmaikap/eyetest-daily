@@ -11,6 +11,9 @@ importers:
       '@remotion/cli':
         specifier: 4.0.405
         version: 4.0.405(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+      '@remotion/google-fonts':
+        specifier: ^4.0.417
+        version: 4.0.417(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       '@remotion/tailwind-v4':
         specifier: 4.0.405
         version: 4.0.405(@remotion/bundler@4.0.405(react-dom@19.2.3(react@19.2.3))(react@19.2.3))(typescript@5.9.3)(webpack@5.96.1)
@@ -593,21 +596,25 @@ packages:
     resolution: {integrity: sha512-DesqHFcRa8PnZ5QVOGX1THqxPig+fpn3TMFmBldiaSrpbqzKfABf18VfdNl7zfMfILXtuxXyw4sStBcP3AiUGQ==}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@remotion/compositor-linux-arm64-musl@4.0.405':
     resolution: {integrity: sha512-bt4HXk/FfS6g5SVZ9eP6Lbm74qI5/McapVcJgTjZTiA5t0Hhk+sEdE9ylKJFP0MtQoVKot+WwUlZxHpTpPjs7w==}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@remotion/compositor-linux-x64-gnu@4.0.405':
     resolution: {integrity: sha512-GGwYiIIeKFl1LnzgypaMoj1Vq/eHEF2SJSfXm4djZo2ioi9XV1zm09Re1n3HeaMxTh2nz2kgthbLdB99MYGYwA==}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@remotion/compositor-linux-x64-musl@4.0.405':
     resolution: {integrity: sha512-hENllpG0QacXbBFxaSZgIarXz7iL8y/D/T1Oz/uZfLHnat1XZJtPIp8G3xd1+lzFtIDD2Y5UUzZ6agGjK/1ugw==}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@remotion/compositor-win32-x64-msvc@4.0.405':
     resolution: {integrity: sha512-dwaD/5BGZsjL4a1c7+rC60NdyqG6GhTtt1hXDWuRNjBjdQrR7PLf2Y2FeoSPDbTj9shgLCSGoqBVDZqmhMiQKg==}
@@ -618,6 +625,9 @@ packages:
     resolution: {integrity: sha512-7V3UMXGC30OicZp0jPaoPZUXsKERNzC5sf2biaDD6LYpkNfrKY2Nr05sJq/tncS8FtrG1NJJpm9ewCegiy6FAQ==}
     peerDependencies:
       eslint: '>=9'
+
+  '@remotion/google-fonts@4.0.417':
+    resolution: {integrity: sha512-V10VijHA2mXAcJT+QtEG+W8ng9uxDPauQpZcSXbOhFM1XxtKC6vrx6qdEbAschKiFEyDJzsSETIZJzbQCd+mIw==}
 
   '@remotion/licensing@4.0.405':
     resolution: {integrity: sha512-FGq5QNYstAoNNwNJlPvsNovxOCCabW4sRefHqNtd8o1oiVz050xgzaJ+hncP72esg+QMZKxfBZSTeYt1b0AlIw==}
@@ -720,24 +730,28 @@ packages:
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   '@tailwindcss/oxide-linux-arm64-musl@4.1.1':
     resolution: {integrity: sha512-1KPnDMlHdqjPTUSFjx55pafvs8RZXRgxfeRgUrukwDKkuj7gFk28vW3Mx65YdiugAc9NWs3VgueZWaM1Po6uGw==}
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   '@tailwindcss/oxide-linux-x64-gnu@4.1.1':
     resolution: {integrity: sha512-4WdzA+MRlsinEEE6yxNMLJxpw0kE9XVipbAKdTL8BeUpyC2TdA3TL46lBulXzKp3BIxh3nqyR/UCqzl5o+3waQ==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   '@tailwindcss/oxide-linux-x64-musl@4.1.1':
     resolution: {integrity: sha512-q7Ugbw3ARcjCW2VMUYrcMbJ6aMQuWPArBBE2EqC/swPZTdGADvMQSlvR0VKusUM4HoSsO7ZbvcZ53YwR57+AKw==}
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   '@tailwindcss/oxide-win32-arm64-msvc@4.1.1':
     resolution: {integrity: sha512-0KpqsovgHcIzm7eAGzzEZsEs0/nPYXnRBv+aPq/GehpNQuE/NAQu+YgZXIIof+VflDFuyXOEnaFr7T5MZ1INhA==}
@@ -1386,24 +1400,28 @@ packages:
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
+    libc: [glibc]
 
   lightningcss-linux-arm64-musl@1.29.2:
     resolution: {integrity: sha512-Q64eM1bPlOOUgxFmoPUefqzY1yV3ctFPE6d/Vt7WzLW4rKTv7MyYNky+FWxRpLkNASTnKQUaiMJ87zNODIrrKQ==}
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [linux]
+    libc: [musl]
 
   lightningcss-linux-x64-gnu@1.29.2:
     resolution: {integrity: sha512-0v6idDCPG6epLXtBH/RPkHvYx74CVziHo6TMYga8O2EiQApnUPZsbR9nFNrg2cgBzk1AYqEd95TlrsL7nYABQg==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
+    libc: [glibc]
 
   lightningcss-linux-x64-musl@1.29.2:
     resolution: {integrity: sha512-rMpz2yawkgGT8RULc5S4WiZopVMOFWjiItBT7aSfDX4NQav6M44rhn5hjtkKzB+wMTRlLLqxkeYEtQ3dd9696w==}
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [linux]
+    libc: [musl]
 
   lightningcss-win32-arm64-msvc@1.29.2:
     resolution: {integrity: sha512-nL7zRW6evGQqYVu/bKGK+zShyz8OVzsCotFgc7judbt6wnB2KbiKKJwBE4SGoDBQ1O94RjW4asrCjQL4i8Fhbw==}
@@ -1808,6 +1826,12 @@ packages:
 
   remotion@4.0.406:
     resolution: {integrity: sha512-O+r74A1efp/iA1A0xyXJp29+EmXdDH35l/4hoayHmM5f/WN+cEGcISo/xrFwWdH6E4Ci2J7oPUmrFVNgXZfMvA==}
+    peerDependencies:
+      react: '>=16.8.0'
+      react-dom: '>=16.8.0'
+
+  remotion@4.0.417:
+    resolution: {integrity: sha512-E+TsvgTqG490IdMjzKPXsZxbRJdJ0QI3hxTgW/Z6iLIV7T/E4/7eBYm9ObOq0Vz4+Mdgp66pOQbVkwNB8HlUDQ==}
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
@@ -2563,6 +2587,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
       - typescript
+
+  '@remotion/google-fonts@4.0.417(react-dom@19.2.3(react@19.2.3))(react@19.2.3)':
+    dependencies:
+      remotion: 4.0.417(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+    transitivePeerDependencies:
+      - react
+      - react-dom
 
   '@remotion/licensing@4.0.405': {}
 
@@ -3895,6 +3926,11 @@ snapshots:
       react-dom: 19.2.3(react@19.2.3)
 
   remotion@4.0.406(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
+    dependencies:
+      react: 19.2.3
+      react-dom: 19.2.3(react@19.2.3)
+
+  remotion@4.0.417(react-dom@19.2.3(react@19.2.3))(react@19.2.3):
     dependencies:
       react: 19.2.3
       react-dom: 19.2.3(react@19.2.3)

@@ -26,7 +26,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="EyeTestBall"
         component={EyeTestBall}
-        durationInFrames={450} // 15 sec @ 30fps
+        durationInFrames={420} // 14 sec @ 30fps
         fps={30}
         width={1080}
         height={1920}

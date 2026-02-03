@@ -3,38 +3,39 @@ import { Character } from "./components/Character";
 import { Ball } from "./components/Ball";
 import { useCurvedMovement, MovementKeyframe } from "./useCurvedMovement";
 import { createSeededRandom } from "../utils/seededRandom";
+import { loadFont } from "@remotion/google-fonts/ComicRelief";
 
+const { fontFamily } = loadFont();
 // Character and Ball dimensions
 const CHARACTER_SIZE = 300;
 const BALL_SIZE = 80;
 const CHARACTER_SPACING = 350;
 
-// ===== CUSTOMIZE STARTING OFFSETS HERE =====
-// Y offset for each character's starting position (negative = higher, positive = lower)
-const CHARACTER_START_OFFSETS = [
-  0, // Character 0 (Orange/Left) - starts at center
-  -350, // Character 1 (Green/Middle) - starts 250px higher to show ball
-  0, // Character 2 (Blue/Right) - starts at center
-  0, // Character 2 (Blue/Right) - starts at center
-];
+// ===== CUSTOMIZE HERE =====
+// Number of characters (2-5)
+const NUM_CHARACTERS = 3;
 
-// Random seed for shuffle patterns (change this to get different shuffle patterns)
-const SHUFFLE_SEED = 42;
-// ==========================================
+// Which character has the ball underneath (0-indexed, this character starts higher)
+const BALL_CHARACTER_INDEX = 1;
+
+// How high the ball character starts (negative = higher)
+const BALL_CHARACTER_START_OFFSET = -350;
+
+// Random seed for shuffle patterns
+// Use a specific number for reproducible results, or Math.random() for different results each time
+const SHUFFLE_SEED = 4002;
+
+// Character labels
+const CHARACTER_LABELS = ["A", "B", "C", "D", "E"];
+// ===========================
 
 interface AnimatedCharacterProps {
   keyframes: MovementKeyframe[];
-  color: string;
-  label: string;
 }
 
-const AnimatedCharacter: React.FC<AnimatedCharacterProps> = ({
-  keyframes,
-  color,
-  label,
-}) => {
+const AnimatedCharacter: React.FC<AnimatedCharacterProps> = ({ keyframes }) => {
   const { x, y } = useCurvedMovement(keyframes);
-  return <Character x={x} y={y} color={color} label={label} />;
+  return <Character x={x} y={y} />;
 };
 
 // Generate random curve value between 300-400, with random sign (up or down)
@@ -44,26 +45,49 @@ const getRandomCurve = (random: () => number): number => {
   return magnitude * sign;
 };
 
+// Generate final positions for all characters (ensures no overlap)
+const generateFinalPositions = (
+  numCharacters: number,
+  seed: number,
+): number[] => {
+  const random = createSeededRandom(seed);
+  const positions = Array.from({ length: numCharacters }, (_, i) => i);
+
+  // Fisher-Yates shuffle
+  for (let i = positions.length - 1; i > 0; i--) {
+    const j = Math.floor(random() * (i + 1));
+    [positions[i], positions[j]] = [positions[j], positions[i]];
+  }
+
+  return positions;
+};
+
 // Generate keyframes for a character with random shuffle curves
 const generateKeyframes = (
   characterIndex: number,
+  numCharacters: number,
   characterPositions: { x: number; y: number }[],
   centerY: number,
   startYOffset: number,
   shuffleStart: number,
   shuffleEnd: number,
   ballRevealEnd: number,
+  finalPositionIndex: number,
   random: () => number,
 ): MovementKeyframe[] => {
   const startPos = characterPositions[characterIndex];
 
   // Generate random shuffle sequence (which positions to visit)
-  const otherPositions = [0, 1, 2].filter((i) => i !== characterIndex);
-  const shuffledPositions = otherPositions.sort(() => random() - 0.5);
+  const otherPositions = Array.from(
+    { length: numCharacters },
+    (_, i) => i,
+  ).filter((i) => i !== characterIndex);
+  const shuffledPositions = [...otherPositions].sort(() => random() - 0.5);
 
   // Calculate frame intervals for shuffle
   const shuffleDuration = shuffleEnd - shuffleStart;
-  const segmentDuration = Math.floor(shuffleDuration / 3);
+  const numSegments = Math.min(shuffledPositions.length + 1, 4); // Up to 4 segments
+  const segmentDuration = Math.floor(shuffleDuration / numSegments);
 
   const keyframes: MovementKeyframe[] = [
     // Starting position with offset
@@ -88,24 +112,19 @@ const generateKeyframes = (
     });
   }
 
-  // Shuffle movements
-  keyframes.push({
-    x: characterPositions[shuffledPositions[0]].x,
-    y: centerY,
-    frame: shuffleStart + segmentDuration,
-    curve: getRandomCurve(random),
-  });
+  // Shuffle movements - visit random positions
+  for (let i = 0; i < Math.min(shuffledPositions.length, 2); i++) {
+    keyframes.push({
+      x: characterPositions[shuffledPositions[i]].x,
+      y: centerY,
+      frame: shuffleStart + segmentDuration * (i + 1),
+      curve: getRandomCurve(random),
+    });
+  }
 
+  // Return to assigned final position (no overlap)
   keyframes.push({
-    x: characterPositions[shuffledPositions[1]].x,
-    y: centerY,
-    frame: shuffleStart + segmentDuration * 2,
-    curve: getRandomCurve(random),
-  });
-
-  // Return to original position
-  keyframes.push({
-    x: startPos.x,
+    x: characterPositions[finalPositionIndex].x,
     y: centerY,
     frame: shuffleEnd,
     curve: 0,
@@ -122,16 +141,22 @@ export const EyeTestBall: React.FC = () => {
   const centerX = width / 2 - CHARACTER_SIZE / 2;
   const centerY = height / 2 - CHARACTER_SIZE / 2;
 
-  // Ball position (center)
-  const ballX = width / 2 - BALL_SIZE / 2;
+  // Ball position (center, under the ball character)
   const ballY = height / 2 - BALL_SIZE / 2;
 
-  // Character positions
-  const characterPositions = [
-    { x: centerX - CHARACTER_SPACING, y: centerY }, // Left
-    { x: centerX, y: centerY }, // Middle (ball is here)
-    { x: centerX + CHARACTER_SPACING, y: centerY }, // Right
-  ];
+  // Generate character positions dynamically based on NUM_CHARACTERS
+  const totalWidth = (NUM_CHARACTERS - 1) * CHARACTER_SPACING;
+  const startX = centerX - totalWidth / 2;
+  const characterPositions = Array.from({ length: NUM_CHARACTERS }, (_, i) => ({
+    x: startX + i * CHARACTER_SPACING,
+    y: centerY,
+  }));
+
+  // Generate starting offsets - only the ball character starts higher
+  const characterStartOffsets = Array.from(
+    { length: NUM_CHARACTERS },
+    (_, i) => (i === BALL_CHARACTER_INDEX ? BALL_CHARACTER_START_OFFSET : 0),
+  );
 
   // Timing (at 30fps)
   const ballRevealEnd = 60; // 2s - middle character comes down, hides ball
@@ -141,23 +166,43 @@ export const EyeTestBall: React.FC = () => {
   const commentTime = 330; // 11s - comment your answer
   const shareTime = 390; // 12s - share with friends
 
-  // Character colors
-  const colors = ["#F97316", "#22C55E", "#3B82F6"];
+  // Generate unique final positions for all characters (no overlap)
+  const finalPositions = generateFinalPositions(NUM_CHARACTERS, SHUFFLE_SEED);
 
   // Generate keyframes for each character with random curves
-  const allKeyframes = [0, 1, 2].map((i) => {
+  const characterKeyframes = Array.from({ length: NUM_CHARACTERS }, (_, i) => {
     const random = createSeededRandom(SHUFFLE_SEED + i * 100); // Different seed per character
     return generateKeyframes(
       i,
+      NUM_CHARACTERS,
       characterPositions,
       centerY,
-      CHARACTER_START_OFFSETS[i],
+      characterStartOffsets[i],
       shuffleStart,
       shuffleEnd,
       ballRevealEnd,
+      finalPositions[i], // Each character gets a unique final position
       random,
     );
   });
+
+  // Find which position the ball character ends up at
+  const ballCharacterFinalPosition = finalPositions[BALL_CHARACTER_INDEX];
+
+  // Log the answer (which position label the ball is under)
+  if (frame === freezeStart) {
+    console.log("=== BALL TRACKING ===");
+    console.log(
+      `Ball started under character: ${CHARACTER_LABELS[BALL_CHARACTER_INDEX]} (index ${BALL_CHARACTER_INDEX})`,
+    );
+    console.log(
+      `Ball character ended at position: ${ballCharacterFinalPosition}`,
+    );
+    console.log(
+      `Answer: The ball is under position ${CHARACTER_LABELS[ballCharacterFinalPosition]}`,
+    );
+    console.log("=====================");
+  }
 
   // Determine which top text to show
   const getTopText = () => {
@@ -180,9 +225,9 @@ export const EyeTestBall: React.FC = () => {
       <div
         style={{
           position: "absolute",
-          top: 180,
+          top: 200,
           fontSize: 70,
-          fontFamily: "cursive",
+          fontFamily,
           fontWeight: 600,
           letterSpacing: 1.5,
           textAlign: "center",
@@ -192,38 +237,57 @@ export const EyeTestBall: React.FC = () => {
         {getTopText()}
       </div>
 
-      {/* Ball: always at center, visible before shuffle starts */}
-      {frame < shuffleStart && <Ball x={ballX} y={ballY + 50} />}
+      {/* Ball: visible before shuffle starts, positioned under ball character */}
+      {frame < shuffleStart && (
+        <Ball
+          x={
+            characterPositions[BALL_CHARACTER_INDEX].x +
+            CHARACTER_SIZE / 2 -
+            BALL_SIZE / 2
+          }
+          y={ballY + 50}
+        />
+      )}
 
       {/* Characters */}
-      {allKeyframes.map((keyframes, i) => (
-        <AnimatedCharacter
-          key={i}
-          keyframes={keyframes}
-          color={colors[i]}
-          label={`${i + 1}`}
-        />
+      {characterKeyframes.map((keyframes, i) => (
+        <AnimatedCharacter key={i} keyframes={keyframes} />
       ))}
 
-      {/* Bottom text - A B C after animation ends */}
+      {/* Bottom text - position labels after animation ends */}
       {frame >= freezeStart && (
         <div
           style={{
             position: "absolute",
             bottom: 580,
-            fontFamily: "cursive",
+            fontFamily,
             fontSize: 80,
             fontWeight: 500,
             display: "flex",
             color: "#6f3521",
-            gap: 350,
+            gap: CHARACTER_SPACING - 30,
           }}
         >
-          <span>A</span>
-          <span>B</span>
-          <span>C</span>
+          {Array.from({ length: NUM_CHARACTERS }, (_, i) => (
+            <span key={i}>{CHARACTER_LABELS[i]}</span>
+          ))}
         </div>
       )}
+      <div
+        style={{
+          position: "absolute",
+          bottom: 300,
+          fontFamily,
+          opacity: 0.7,
+          fontSize: 40,
+          fontWeight: 400,
+          display: "flex",
+          color: "#6f3521",
+          letterSpacing: 2,
+        }}
+      >
+        @EyeTestDaily
+      </div>
     </AbsoluteFill>
   );
 };

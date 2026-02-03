@@ -1,14 +1,6 @@
 import { AbsoluteFill, Img, staticFile } from "remotion";
 
-export const Character = ({
-  x,
-  y,
-}: {
-  x: number;
-  y: number;
-  color: string;
-  label: string;
-}) => {
+export const Character = ({ x, y }: { x: number; y: number }) => {
   return (
     <AbsoluteFill
       style={{
