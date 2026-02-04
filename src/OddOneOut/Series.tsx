@@ -1,8 +1,11 @@
 import {
   AbsoluteFill,
+  Audio,
+  Loop,
   Sequence,
   interpolate,
   spring,
+  staticFile,
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
@@ -42,6 +45,10 @@ export interface OddOneOutSeriesProps {
   puzzles?: PuzzleConfig[];
   /** Target duration in seconds - auto-calculates puzzle count */
   targetDurationSeconds?: number;
+  /** Background music file (from public/audio folder) */
+  musicFile?: string;
+  /** Music volume (0-1) */
+  musicVolume?: number;
 }
 
 // Generate puzzles with progressive difficulty
@@ -148,9 +155,18 @@ const CountdownTransition: React.FC<{
   nextPuzzle: number;
   totalPuzzles: number;
   durationInFrames: number;
-}> = ({ nextPuzzle, totalPuzzles, durationInFrames }) => {
+  nextDifficulty: Difficulty;
+}> = ({ nextPuzzle, totalPuzzles, durationInFrames, nextDifficulty }) => {
   const frame = useCurrentFrame();
   const { fps } = useVideoConfig();
+
+  // Get color based on upcoming difficulty
+  const difficultyColors = {
+    easy: hsl(120, 60, 45), // Green
+    medium: hsl(45, 80, 50), // Yellow/Orange
+    hard: hsl(0, 80, 50), // Red
+  };
+  const accentColor = difficultyColors[nextDifficulty];
 
   // Calculate countdown number (5, 4, 3, 2, 1)
   const countdownSeconds = 5;
@@ -204,7 +220,7 @@ const CountdownTransition: React.FC<{
           cy="150"
           r="120"
           fill="none"
-          stroke="#4ade80"
+          stroke={accentColor}
           strokeWidth="8"
           strokeLinecap="round"
           strokeDasharray={circumference}
@@ -219,10 +235,10 @@ const CountdownTransition: React.FC<{
           fontSize: 180,
           fontWeight: 900,
           fontFamily,
-          color: "white",
+          color: accentColor,
           transform: `scale(${scale})`,
           opacity,
-          textShadow: "0 4px 20px rgba(0,0,0,0.5)",
+          textShadow: "0 4px 20px rgba(0,0,0,0.3)",
         }}
       >
         {currentCount}
@@ -250,7 +266,7 @@ const CountdownTransition: React.FC<{
           fontSize: 48,
           fontWeight: 800,
           fontFamily,
-          color: "#4ade80",
+          color: accentColor,
           textTransform: "uppercase",
           letterSpacing: 4,
         }}
@@ -329,6 +345,8 @@ export const OddOneOutSeries: React.FC<OddOneOutSeriesProps> = ({
   cellSize = 85,
   puzzles: customPuzzles,
   targetDurationSeconds,
+  musicFile,
+  musicVolume = 0.3,
 }) => {
   const { fps } = useVideoConfig();
 
@@ -421,6 +439,7 @@ export const OddOneOutSeries: React.FC<OddOneOutSeriesProps> = ({
             nextPuzzle={index + 2}
             totalPuzzles={puzzles.length}
             durationInFrames={transitionDuration}
+            nextDifficulty={puzzles[index + 1].difficulty}
           />
         </Sequence>,
       );
@@ -428,9 +447,24 @@ export const OddOneOutSeries: React.FC<OddOneOutSeriesProps> = ({
     }
   });
 
+  // Calculate total duration for audio looping
+  const totalDuration = calculateSeriesDuration(
+    puzzles.length,
+    puzzleDuration,
+    transitionDuration,
+    levelIntroDuration,
+  );
+
   // Solid background to prevent gaps
   return (
-    <AbsoluteFill style={{ backgroundColor: "#fff" }}>{sequences}</AbsoluteFill>
+    <AbsoluteFill style={{ backgroundColor: "#fff" }}>
+      {sequences}
+      {musicFile && (
+        <Loop durationInFrames={totalDuration}>
+          <Audio src={staticFile(`audio/${musicFile}`)} volume={musicVolume} />
+        </Loop>
+      )}
+    </AbsoluteFill>
   );
 };
 

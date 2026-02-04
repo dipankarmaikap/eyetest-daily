@@ -103,6 +103,8 @@ export const RemotionRoot: React.FC = () => {
           grid: 6, // Smaller grid for landscape
           gap: 12,
           cellSize: 100,
+          musicFile: "Stay - Oliver Tray _ @RFM_NCM.mp4",
+          musicVolume: 0.1,
         }}
       />
 
