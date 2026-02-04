@@ -104,7 +104,7 @@ export const RemotionRoot: React.FC = () => {
           gap: 12,
           cellSize: 100,
           musicFile: "Stay - Oliver Tray _ @RFM_NCM.mp4",
-          musicVolume: 0.1,
+          musicVolume: 0.2,
         }}
       />
 

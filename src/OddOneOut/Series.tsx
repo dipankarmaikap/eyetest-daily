@@ -1,7 +1,6 @@
 import {
   AbsoluteFill,
-  Audio,
-  Loop,
+  Html5Audio,
   Sequence,
   interpolate,
   spring,
@@ -447,22 +446,16 @@ export const OddOneOutSeries: React.FC<OddOneOutSeriesProps> = ({
     }
   });
 
-  // Calculate total duration for audio looping
-  const totalDuration = calculateSeriesDuration(
-    puzzles.length,
-    puzzleDuration,
-    transitionDuration,
-    levelIntroDuration,
-  );
-
   // Solid background to prevent gaps
   return (
     <AbsoluteFill style={{ backgroundColor: "#fff" }}>
       {sequences}
       {musicFile && (
-        <Loop durationInFrames={totalDuration}>
-          <Audio src={staticFile(`audio/${musicFile}`)} volume={musicVolume} />
-        </Loop>
+        <Html5Audio
+          loop={true}
+          src={staticFile(`audio/${musicFile}`)}
+          volume={musicVolume}
+        />
       )}
     </AbsoluteFill>
   );
