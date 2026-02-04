@@ -17,7 +17,6 @@ const HOOKS = [
   "Check your color sensitivity",
   "How good is your color vision?",
   "Subtle color test",
-  "Can your eyes detect the difference?",
   "Visual sensitivity check",
 ];
 
