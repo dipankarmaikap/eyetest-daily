@@ -27,10 +27,17 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="OddOneOut"
         component={OddOneOut}
-        durationInFrames={300} // 10 sec @ 30fps
+        durationInFrames={240} // 8 sec @ 30fps
         fps={30}
         width={1080}
         height={1920}
+        defaultProps={{
+          seed: 1,
+          grid: 8,
+          gap: 12,
+          cellSize: 90,
+          difficulty: "hard",
+        }}
       />
       <Composition
         id="EyeTestBall"
