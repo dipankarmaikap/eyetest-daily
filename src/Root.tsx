@@ -4,6 +4,7 @@ import { SpotTheDifference } from "./SpotTheDifference";
 import { AiVideoTimelaps, AiVideoTimelapsSchema } from "./AiVideoTimelaps";
 import { SpotTheDifferenceTwitter } from "./SpotTheDifference/twitter";
 import { EyeTestBall } from "./EyeTestBall";
+import { OddOneOut } from "./OddOneOut";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -22,6 +23,14 @@ export const RemotionRoot: React.FC = () => {
           topImage: "puzzles/done/p42_3_top.png",
           bottomImage: "puzzles/done/p42_3_bottom.png",
         }}
+      />
+      <Composition
+        id="OddOneOut"
+        component={OddOneOut}
+        durationInFrames={300} // 10 sec @ 30fps
+        fps={30}
+        width={1080}
+        height={1920}
       />
       <Composition
         id="EyeTestBall"
