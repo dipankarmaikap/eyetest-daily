@@ -5,6 +5,7 @@ import { AiVideoTimelaps, AiVideoTimelapsSchema } from "./AiVideoTimelaps";
 import { SpotTheDifferenceTwitter } from "./SpotTheDifference/twitter";
 import { EyeTestBall } from "./EyeTestBall";
 import { OddOneOut } from "./OddOneOut";
+import { OddOneOutSeries, calculateSeriesDuration } from "./OddOneOut/Series";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -82,6 +83,46 @@ export const RemotionRoot: React.FC = () => {
           textHeight: 35,
           height: 65,
           zoom: 1.1,
+        }}
+      />
+
+      {/* OddOneOut YouTube Series - 100 puzzles compilation */}
+      <Composition
+        id="OddOneOutSeries"
+        component={OddOneOutSeries}
+        durationInFrames={calculateSeriesDuration(100, 300, 150, 90)}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          puzzleCount: 100,
+          puzzleDuration: 300, // 10 sec per puzzle
+          transitionDuration: 150, // 5 sec countdown
+          levelIntroDuration: 90,
+          startSeed: 1,
+          grid: 6, // Smaller grid for landscape
+          gap: 12,
+          cellSize: 100,
+        }}
+      />
+
+      {/* Shorter version - 20 puzzles for testing */}
+      <Composition
+        id="OddOneOutSeriesShort"
+        component={OddOneOutSeries}
+        durationInFrames={calculateSeriesDuration(20, 300, 150, 90)}
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          puzzleCount: 20,
+          puzzleDuration: 300,
+          transitionDuration: 150, // 5 sec countdown
+          levelIntroDuration: 90,
+          startSeed: 1,
+          grid: 6,
+          gap: 12,
+          cellSize: 100,
         }}
       />
     </>
