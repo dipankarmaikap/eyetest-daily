@@ -150,8 +150,9 @@ const propsPath = path.join(OUT_DIR, `temp_props_${config.name}.json`);
 fs.writeFileSync(propsPath, JSON.stringify(props, null, 2));
 
 try {
+  // Pass --frames as range to override the composition's default duration
   execSync(
-    `npx remotion render src/index.ts OddOneOutSeries "${output}" --props="${propsPath}"`,
+    `npx remotion render src/index.ts OddOneOutSeries "${output}" --props="${propsPath}" --frames=0-${totalFrames - 1}`,
     { stdio: "inherit" },
   );
   console.log(`\n✅ Done: ${output}`);
