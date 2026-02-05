@@ -6,6 +6,8 @@ import { SpotTheDifferenceTwitter } from "./SpotTheDifference/twitter";
 import { EyeTestBall } from "./EyeTestBall";
 import { OddOneOut } from "./OddOneOut";
 import { OddOneOutSeries, calculateSeriesDuration } from "./OddOneOut/Series";
+import { Ishihara } from "./Ishihara";
+import { IshiharaVideo } from "./Ishihara/Video";
 
 // Each <Composition> is an entry in the sidebar!
 
@@ -125,6 +127,83 @@ export const RemotionRoot: React.FC = () => {
           grid: 6,
           gap: 12,
           cellSize: 100,
+        }}
+      />
+
+      {/* Ishihara Color Blindness Test - Single Frame */}
+      <Composition
+        id="Ishihara"
+        component={Ishihara}
+        durationInFrames={1}
+        fps={30}
+        width={1080}
+        height={1080}
+        defaultProps={{
+          number: "12",
+          size: 900,
+          dotCount: 1200,
+          seed: 42,
+          numberColor: "#E85D04",
+          backgroundColor: "#2D6A4F",
+          minRadius: 8,
+          maxRadius: 18,
+        }}
+      />
+
+      {/* Ishihara Video - YouTube Horizontal (16:9) - 10 puzzles @ 6 sec each = 60 sec */}
+      <Composition
+        id="IshiharaVideoYouTube"
+        component={IshiharaVideo}
+        durationInFrames={1800} // 60 sec @ 30fps = 10 puzzles
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          size: 650,
+          dotCount: 900,
+          seed: 42,
+          orientation: "landscape",
+          showTimer: true,
+          showDifficulty: true,
+          puzzleDuration: 180, // 6 sec per puzzle
+        }}
+      />
+
+      {/* Ishihara Video - Vertical Shorts/Reels (9:16) - 5 puzzles @ 6 sec = 30 sec */}
+      <Composition
+        id="IshiharaVideoShorts"
+        component={IshiharaVideo}
+        durationInFrames={900} // 30 sec @ 30fps = 5 puzzles
+        fps={30}
+        width={1080}
+        height={1920}
+        defaultProps={{
+          size: 750,
+          dotCount: 1000,
+          seed: 42,
+          orientation: "portrait",
+          showTimer: true,
+          showDifficulty: true,
+          puzzleDuration: 180, // 6 sec per puzzle
+        }}
+      />
+
+      {/* Ishihara Video - Long YouTube version - 20 puzzles @ 6 sec = 2 min */}
+      <Composition
+        id="IshiharaVideoYouTubeLong"
+        component={IshiharaVideo}
+        durationInFrames={3600} // 120 sec @ 30fps = 20 puzzles
+        fps={30}
+        width={1920}
+        height={1080}
+        defaultProps={{
+          size: 650,
+          dotCount: 800,
+          seed: 20,
+          orientation: "landscape",
+          showTimer: true,
+          showDifficulty: true,
+          puzzleDuration: 180,
         }}
       />
     </>
