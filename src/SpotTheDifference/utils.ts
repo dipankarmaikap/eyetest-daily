@@ -1,14 +1,20 @@
 // MAIN TITLE TEXT
 export const mainTitles = [
+  // Open-ended / curiosity (primary)
   "Your eyes will lie to you",
   "Most people miss one",
   "Something doesn’t belong",
-  "This is harder than it looks",
+  "This doesn’t look right",
+  "Not everything matches",
+  "Look carefully",
+
+  // Instruction (keep limited)
   "Spot the differences",
   "Can you spot them all?",
-  "Find the differences",
   "What’s different here?",
-  "Only 1% can find them all",
+
+  // Ego / rarity (treat carefully)
+  "Only 1% find them all",
 ];
 
 // SECONDARY CTA TEXT
@@ -18,4 +24,8 @@ export const secondaryCTAs = {
 };
 
 // FOLLOW TEXT (ALWAYS ON)
-export const followText = "Daily eye tests → Follow Eye Test Daily";
+export const followTexts = [
+  "Daily eye tests → Follow Eye Test Daily",
+  "Follow Eye Test Daily for more",
+  "Follow @eyetestdaily for more",
+];

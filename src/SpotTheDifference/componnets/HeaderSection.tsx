@@ -1,22 +1,24 @@
 import { Title } from "../Title";
 
 export default function HeaderSection({
-  differences,
+  title,
   showLikeButton,
+  cta,
 }: {
-  differences: number;
+  title: string;
   showLikeButton: boolean;
+  cta: string;
 }) {
   return (
     <>
       <div className="text-center">
-        <Title differences={differences} />
+        <Title title={title} />
       </div>
       {showLikeButton && (
         <div className="text-center">
-          <div className="bg-white inline-flex items-center justify-center rounded-full mt-6">
+          <div className="bg-white/80 inline-flex items-center justify-center rounded-full mt-6">
             <p className="px-8 py-2 font-semibold" style={{ fontSize: 40 }}>
-              Found it? Double tap ❤️
+              {cta}
             </p>
           </div>
         </div>

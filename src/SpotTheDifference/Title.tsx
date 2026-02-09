@@ -1,8 +1,8 @@
 type Props = {
-  differences: number;
+  title: string;
 };
 
-export const Title: React.FC<Props> = ({ differences }) => {
+export const Title: React.FC<Props> = ({ title }) => {
   return (
     <div
       style={{
@@ -16,9 +16,9 @@ export const Title: React.FC<Props> = ({ differences }) => {
           fontSize: 65,
           fontWeight: 800,
         }}
-        className="bg-white rounded-lg py-4 px-12"
+        className="bg-white/80 rounded-lg py-4 px-12"
       >
-        Spot {differences} Differences
+        {title}
       </h1>
     </div>
   );

@@ -1,6 +1,4 @@
-import { followText } from "../utils";
-
-export default function FollowText() {
+export default function FollowText({ followText }: { followText: string }) {
   return (
     <div
       style={{
@@ -18,7 +16,9 @@ export default function FollowText() {
         whiteSpace: "nowrap",
       }}
     >
-      {followText}
+      <div className="bg-white/40 px-2 rounded-lg text-neutral-800">
+        {followText}
+      </div>
     </div>
   );
 }
