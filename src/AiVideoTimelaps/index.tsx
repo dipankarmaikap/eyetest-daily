@@ -1,6 +1,8 @@
 import { z } from "zod";
 import { AbsoluteFill, Html5Video, staticFile } from "remotion";
+import { loadFont } from "@remotion/google-fonts/Inter";
 
+const { fontFamily } = loadFont();
 export const AiVideoTimelapsSchema = z.object({
   videoUrl: z.string(),
   noText: z.boolean(),
@@ -11,6 +13,7 @@ export const AiVideoTimelapsSchema = z.object({
   height: z.number(),
   textHeight: z.number(),
   zoom: z.number(),
+  trimBefore: z.number(),
 });
 
 export const AiVideoTimelaps: React.FC<
@@ -24,6 +27,7 @@ export const AiVideoTimelaps: React.FC<
   textHeight,
   zoom,
   noText,
+  trimBefore,
 }) => {
   return (
     <AbsoluteFill
@@ -65,6 +69,7 @@ export const AiVideoTimelaps: React.FC<
           src={staticFile(videoUrl)}
           playbackRate={0.5}
           muted
+          trimBefore={trimBefore}
           style={{
             transform: `scale(${zoom})`, // zoom in
             width: "100%",
@@ -73,6 +78,21 @@ export const AiVideoTimelaps: React.FC<
             objectPosition: "center center",
           }}
         />
+      </div>
+      <div
+        style={{
+          position: "absolute",
+          bottom: 40,
+          right: 40,
+          opacity: 0.2,
+          fontSize: 40,
+          fontWeight: 400,
+          display: "flex",
+          color: "white",
+          fontFamily,
+        }}
+      >
+        @stillmotion.frames
       </div>
     </AbsoluteFill>
   );

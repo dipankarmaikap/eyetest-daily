@@ -77,7 +77,7 @@ export const RemotionRoot: React.FC = () => {
         height={1920}
         schema={AiVideoTimelapsSchema}
         defaultProps={{
-          videoUrl: "videos/tv-wall-media-unit-setup.mp4",
+          videoUrl: "videos/done/tv-wall-media-unit-setup.mp4",
           noText: false,
           title: "Moon wall transformation",
           subtitle: "wait till you see the result",
@@ -85,6 +85,7 @@ export const RemotionRoot: React.FC = () => {
           textHeight: 35,
           height: 65,
           zoom: 1.1,
+          trimBefore: 0,
         }}
       />
 
@@ -197,9 +198,9 @@ export const RemotionRoot: React.FC = () => {
         width={1920}
         height={1080}
         defaultProps={{
-          size: 650,
-          dotCount: 800,
-          seed: 20,
+          size: 680,
+          dotCount: 1000,
+          seed: 200,
           orientation: "landscape",
           showTimer: true,
           showDifficulty: true,

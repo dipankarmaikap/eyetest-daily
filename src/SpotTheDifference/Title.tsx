@@ -13,7 +13,7 @@ export const Title: React.FC<Props> = ({ differences }) => {
     >
       <h1
         style={{
-          fontSize: 70,
+          fontSize: 65,
           fontWeight: 800,
         }}
         className="bg-white rounded-lg py-4 px-12"
