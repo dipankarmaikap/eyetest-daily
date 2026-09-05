@@ -3,7 +3,7 @@ import path from "path";
 import { execSync } from "child_process";
 
 const PUZZLE_DIR = "public/puzzles/done";
-const OUT_DIR = "out/twitter/";
+const OUT_DIR = "out/youtube-post/";
 
 interface PuzzleImages {
   differences: number;
@@ -31,11 +31,6 @@ for (const file of files) {
   puzzles[id][side as "top" | "bottom"] = file;
 }
 
-const DONE_DIR = path.join(PUZZLE_DIR, "done");
-if (!fs.existsSync(DONE_DIR)) {
-  fs.mkdirSync(DONE_DIR);
-}
-
 for (const [id, puzzle] of Object.entries(puzzles)) {
   if (!puzzle.top || !puzzle.bottom) {
     console.warn(`Skipping ${id}: missing image`);
@@ -56,18 +51,8 @@ for (const [id, puzzle] of Object.entries(puzzles)) {
   fs.writeFileSync(propsPath, JSON.stringify(props, null, 2));
 
   execSync(
-    `npx remotion still src/index.ts EyeTestDailyTwitter "${imageOutput}" --frame=20 --props=${propsPath} --image-format=png`,
+    `npx remotion still src/index.ts EyeTestDailyTwitter "${imageOutput}" --frame=0 --props=${propsPath} --image-format=png`,
   );
   // Remove the temporary JSON file
   fs.unlinkSync(propsPath);
-
-  // Move images to done folder
-  for (const side of ["top", "bottom"] as const) {
-    const img = puzzle[side];
-    if (img) {
-      const srcPath = path.join(PUZZLE_DIR, img);
-      const destPath = path.join(DONE_DIR, img);
-      fs.renameSync(srcPath, destPath);
-    }
-  }
 }

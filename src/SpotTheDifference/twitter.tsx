@@ -1,5 +1,4 @@
-import { AbsoluteFill, Img, staticFile, random } from "remotion";
-import { AbstractPastelBackground } from "./AnimatedBackground";
+import { AbsoluteFill, Img, staticFile } from "remotion";
 
 type Props = {
   differences: number;
@@ -8,23 +7,19 @@ type Props = {
 };
 
 export const SpotTheDifferenceTwitter: React.FC<Props> = ({
-  differences,
   topImage,
   bottomImage,
 }) => {
-  const seed = random("Can you spot the difference?") * differences * 1000;
-
   return (
     <>
-      <AbstractPastelBackground seed={seed} />
       <AbsoluteFill
         style={{
           fontFamily: "Inter, sans-serif",
         }}
-        className="flex w-full h-full items-center justify-center"
+        className="flex w-full h-full items-center justify-center bg-white"
       >
         {/* Images */}
-        <div className="flex items-center justify-center gap-12">
+        <div className="flex flex-col items-center justify-center gap-12">
           <div
             style={{
               display: "inline-flex",
@@ -38,7 +33,7 @@ export const SpotTheDifferenceTwitter: React.FC<Props> = ({
             <Img
               src={staticFile(topImage)}
               style={{
-                maxHeight: 500,
+                maxHeight: 400,
                 width: "auto",
                 height: "auto",
                 display: "block",
@@ -61,7 +56,7 @@ export const SpotTheDifferenceTwitter: React.FC<Props> = ({
             <Img
               src={staticFile(bottomImage)}
               style={{
-                maxHeight: 500,
+                maxHeight: 400,
                 width: "100%",
                 objectFit: "contain",
               }}

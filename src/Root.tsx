@@ -58,10 +58,10 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="EyeTestDailyTwitter"
         component={SpotTheDifferenceTwitter}
-        durationInFrames={30} // 10 sec @ 30fps
+        durationInFrames={1} // 10 sec @ 30fps
         fps={30}
-        width={1200}
-        height={676}
+        width={1000}
+        height={1000}
         defaultProps={{
           differences: 3,
           topImage: "puzzles/done/p42_3_top.png",
@@ -71,7 +71,7 @@ export const RemotionRoot: React.FC = () => {
       <Composition
         id="VideoWithTextOverlay"
         component={AiVideoTimelaps}
-        durationInFrames={240} // 10 sec @ 24fps
+        durationInFrames={360} // 10 sec @ 24fps
         fps={24}
         width={1080}
         height={1920}
@@ -86,6 +86,7 @@ export const RemotionRoot: React.FC = () => {
           height: 65,
           zoom: 1.1,
           trimBefore: 0,
+          trimAfter: 360,
         }}
       />
 

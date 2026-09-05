@@ -14,6 +14,7 @@ export const AiVideoTimelapsSchema = z.object({
   textHeight: z.number(),
   zoom: z.number(),
   trimBefore: z.number(),
+  trimAfter: z.number(),
 });
 
 export const AiVideoTimelaps: React.FC<
@@ -28,6 +29,7 @@ export const AiVideoTimelaps: React.FC<
   zoom,
   noText,
   trimBefore,
+  trimAfter,
 }) => {
   return (
     <AbsoluteFill
@@ -69,7 +71,9 @@ export const AiVideoTimelaps: React.FC<
           src={staticFile(videoUrl)}
           playbackRate={0.5}
           muted
+          loop
           trimBefore={trimBefore}
+          trimAfter={trimAfter}
           style={{
             transform: `scale(${zoom})`, // zoom in
             width: "100%",
